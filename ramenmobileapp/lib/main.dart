@@ -5,6 +5,7 @@ import 'registration.dart';
 import 'payment_page.dart';
 import 'order_history.dart';
 import 'invoice_page.dart';
+import 'notification_page.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -149,6 +150,7 @@ class MyApp extends StatelessWidget {
         '/payment': (context) => const PaymentPage(),
         '/order-history': (context) => const OrderHistoryPage(),
         '/invoice': (context) => const InvoicePage(order: {}),
+        '/notifications': (context) => const NotificationPage(),
       },
     );
   }
